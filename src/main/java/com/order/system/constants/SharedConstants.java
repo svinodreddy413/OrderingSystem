@@ -12,6 +12,14 @@ public interface SharedConstants {
 	
 	String ORDER_REFERENCE = "orderReference";
 	
-	String GET_ALL_ORDER_PATH = "getAllOrders";
+	String GET_ALL_ORDERS_PATH = "getAllOrders";
+	
+	String UPDATE_ORDER_PATH = "updateOrder";
+	
+	String IS_DISPATCH_REQ = "isDispatchRequest";
+	
+	String DISPATCH_STATUS = "DISPATCHED";
+	
+	String NEW_ORDER_STATUS = "NEW";
 
 }

@@ -32,7 +32,7 @@ mvn clean install
 
 + Goto main class right click run as java application or spring boot application
 
-The app will start running at <http://localhost:9090>.
+The application will start running at <http://localhost:9090>
 
 ## Explore Rest APIs
 
@@ -40,8 +40,13 @@ The application defines following APIs.
 
 	POST /api/v1/order/createOrder
 
-    GET /api/v1/order/getOrder?orderReference=ORD_2
+    GET /api/v1/order/getOrder?orderReference=ORD_1
 
 	GET /api/v1/order/getAllOrders
+	
+	POST /api/v1/order/updateOrder?isDispatchRequest=false
+	
 
 You can test them using postman or any other rest client.
+
+

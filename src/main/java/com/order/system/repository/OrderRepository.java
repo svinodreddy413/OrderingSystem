@@ -9,8 +9,6 @@ import com.order.system.entity.Order;
 
 public interface OrderRepository extends JpaRepository<Order, Long> {
 	
-	//Order findByOrderReference(String orderReference);
-	
 	Optional<Order> findByOrderReference(String orderReference);
 
 }
